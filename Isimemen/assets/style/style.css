@@ -1,0 +1,278 @@
+.nav {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-row: 85px;
+    font-family: 'Roboto', sans-serif;
+}
+.links{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.logo {
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400px;
+}
+.links a:hover{
+    color:#2ab7e6;
+    text-decoration: underline;
+}
+.welcome {
+    display: grid;
+    height: 900px;
+    width: 100vw;
+    background: url(/Isimemen/assets/images/mainimage.png) no-repeat;
+    background-size: 100%;
+    grid-template-rows: 900px;
+    grid-template-columns: 100%;
+    align-items: center;
+}
+.welcome p {
+    height: 150px;
+    font-size: 126px;
+    color: #AEE8FB;
+    padding-left: 130px;
+    padding-top: 190px;
+    grid-row: 1/2;
+    font-family: 'Roboto', sans-serif;
+}
+.info {
+    display: grid;
+    height: 300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.info p {
+    font-size: 44px;
+    margin: 20px 20px 0px 20px;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.click {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 60px;
+
+}
+.button {
+    grid-row: 1;
+    grid-column: 1;
+    width: 150px;
+    height: 16px;
+    border: 1px solid black;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; 
+    padding: 15px 5px 15px 5px;
+    text-align:center;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #F3E9E2;
+}
+.info-2 {
+    display: grid;
+    height: 400px;
+    background-color: #F3E9E2;
+    background-size: cover;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px;
+    align-items: center;
+    justify-items: start;
+
+}
+.info-2 article {
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 60px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.programs {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 100px 1fr;
+    margin: 0px 0px 0px 15px;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.programs h1 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.programs h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.programs p {
+    padding-bottom: 20px;
+    
+}
+.container-1 {
+    background-color: #AEE8FB;
+    border-radius: 10px;
+    padding: 26px;
+    font-size: 16px;
+}
+.container-2 {
+    background-color: #F3E9E2;
+    border-radius: 10px;
+    padding: 26px;
+    font-size: 16px;
+}
+.container-3 {
+    background-color: #AEE8FB;
+    border-radius: 10px;
+    padding: 26px;
+    font-size: 16px;
+}
+.progbut {
+    width: 160px;
+    height: 16px;
+    border: 1px solid black;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; 
+    padding: 15px 5px 15px 5px;
+    text-align:center;
+    border-radius: 10px;
+}
+.progbut:hover {
+    text-decoration: underline;
+}
+
+.info-3 {
+    display: grid;
+    height: 700px;
+    grid-template-columns: 580px 550px;
+    grid-template-rows:570px;
+    gap: 25px;
+    align-content: center;
+    justify-content: center;
+}
+.info-3 img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.info-3 p {
+    background-color: #F3E9E2;
+    border-radius: 20px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    padding: 170px 80px 80px 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.numbers {
+    height: 350px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-auto-rows: 50px 200px;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+.item-1 {
+    border-right: 2px solid black;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.numbers h2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.numbers span {
+    font-size: 56px;
+}
+.line {
+    height: 210;
+    width: 100vw;
+    background-color: #F3E9E2;
+    background-size: cover;
+    font-size: 75px;
+    font-family: 'Roboto', sans-serif;
+}
+.pic {
+    height:820px;
+    width: 100vw;
+    margin-top: 80px;
+    background: url(/Isimemen/assets/images/IMAGE\ \(4\).png) no-repeat;
+    background-size: 100%;
+}
+footer {
+    height: 400px;
+    width: 100%;
+    background-color:#F3E9E2;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-row: 200px 200px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+.sign {
+    grid-column: 1/2;
+}
+.sign-1{
+    grid-column: 2/3;
+}
+.nav-2 {
+    list-style-type: none;
+    line-height: 30px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.nav-2 a {
+    text-decoration: none;
+    color: #000000;
+}
+.nav-2 a:hover {
+    text-decoration: underline;
+}
+
+
+
+
